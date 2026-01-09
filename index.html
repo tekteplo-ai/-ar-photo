@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AR Проект</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/2.2.1/aframe/build/aframe-ar.min.js"></script>
+  </head>
+  <body style="margin: 0; overflow: hidden;">
+    <a-scene embedded arjs>
+      <!-- сюда вставляем фото или видео -->
+      <a-image src="photo.jpg" position="0 0 0" rotation="-90 0 0"></a-image>
+      <!-- пример для видео -->
+      <!-- <a-video src="video.mp4" width="1.6" height="0.9" position="0 0 0" rotation="-90 0 0"></a-video> -->
+    </a-scene>
+  </body>
+</html>
